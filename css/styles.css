@@ -1,3 +1,28 @@
 body{
     background-color: lightgrey;
 }
+
+#navPrincipale{
+    background-color: brown;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: coral;
+    padding: 5%;
+    border: 3px dashed white;
+}
+
+#navPrincipale > ul{
+    display: grid;
+    grid-template-areas: "Novembre Decembre";
+    grid-template-columns: 1fr 1fr;
+}
+#navPrincipale > a{ 
+    border: 2px blue;
+}
+
+#novembre{
+    grid-area: Novembre;
+}
+
+#décembre{
+    grid-area: Decembre;
+}
