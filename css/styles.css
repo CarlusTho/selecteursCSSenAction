@@ -12,17 +12,9 @@ body{
 
 #navPrincipale > ul{
     display: grid;
-    grid-template-areas: "Novembre Decembre";
     grid-template-columns: 1fr 1fr;
 }
-#navPrincipale > a{ 
+#navPrincipale a{ 
     border: 2px blue;
-}
-
-#novembre{
-    grid-area: Novembre;
-}
-
-#décembre{
-    grid-area: Decembre;
+    text-decoration: none;
 }
